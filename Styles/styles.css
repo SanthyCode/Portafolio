@@ -1,0 +1,115 @@
+:root {
+    --font: 'Rubik', sans-serif;
+
+    /* Colors */
+    --principal: #adadad;
+    --titles: #ffffff;
+    
+    --bg: #020403;
+    
+    
+}
+
+/* Generales */
+
+html {
+    font-size: var(--size-4);
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+body {
+    font-family: var(--font);
+    background-color: var(--bg);
+    color: var(--principal);
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px;
+    color: var(--titles);
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    width: 100%;
+    height: 80px;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-size: 10px;
+    color: #adadad;
+}
+
+.container {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+/* Header */
+
+.hero__navbar{
+    margin: 0 auto;
+    padding: 1rem 0 4rem 0;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0 6rem 0 ;
+}
+.icons i {
+    font-size: 38px;
+  color: #a9a9a9;
+  transition: all .3s ease-in-out;
+}
+
+a:hover {
+    color: var(--titles);
+}
+
+.icons i:hover{
+    font-size: 42px;
+    color: var(--titles);
+}
+
+.imgPerfil {
+    display: block;
+    border-radius: 50%;
+    width: 12rem;
+    margin: 0 auto;
+}
+
+/* Body */
+
+
+.container__Acerca{
+    text-align: left;
+    padding: 5rem 0 0 1rem;
+}
+
+.skills {
+    padding: 5rem 20px;
+  }
+
+.skills__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.border {
+
+}
