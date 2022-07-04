@@ -29,6 +29,7 @@ body {
     background-color: var(--bg);
     color: var(--principal);
     margin: 0 auto;
+    
 }
 
 h1 {
@@ -50,13 +51,14 @@ a {
     text-decoration: none;
     margin-left: 1.5rem;
     font-size: 10px;
-    color: #adadad;
+    color: var(--principal);
 }
 
 .container {
     margin: 0 auto;
     display: block;
     text-align: center;
+    background-image: url('https://cdn.pixabay.com/photo/2017/07/07/22/07/seamless-2482931_960_720.png');
 }
 
 /* Header */
@@ -82,7 +84,7 @@ a:hover {
 }
 
 .icons i:hover{
-    font-size: 42px;
+    font-size: 50px;
     color: var(--titles);
 }
 
@@ -110,6 +112,38 @@ a:hover {
     flex-direction: column;
 }
 
-.border {
 
+/* Modo escritorio */
+
+@media (min-width: 768px) {
+    a {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    a:hover{
+        font-size: 18px;
+    }
+
+    .hero__navbar{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 10px;
+    }
+
+    .icons{
+        padding: 1px 0;
+    }
+
+
+    .container__Acerca {
+        margin: 0 25%;
+        text-align: center;
+    }
+
+    .skills__container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
