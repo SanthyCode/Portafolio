@@ -112,6 +112,11 @@ a:hover {
     flex-direction: column;
 }
 
+/* Footer */
+
+span{
+    font-weight: 600;
+}
 
 /* Modo escritorio */
 
