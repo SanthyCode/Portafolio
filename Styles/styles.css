@@ -55,7 +55,7 @@ a {
     color: var(--principal);
 }
 
-main {
+main, header {
     max-width: 768px;
     margin: 0 auto;
 }
