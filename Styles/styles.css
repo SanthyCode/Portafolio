@@ -55,7 +55,8 @@ a {
     color: var(--principal);
 }
 
-main, header {
+main, 
+.icons {
     max-width: 768px;
     margin: 0 auto;
 }
